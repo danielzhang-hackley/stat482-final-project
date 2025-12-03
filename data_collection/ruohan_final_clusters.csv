@@ -1,0 +1,25 @@
+equivalence_group,question,cluster_id,notes
+Fed_March_2023_Rate_Decision,"Will the Fed decrease interest rates by 25 bps after its March meeting?",32,"One of these must occur"
+Fed_March_2023_Rate_Decision,"Will the Fed increase interest rates by 0 bps after its March meeting?",32,
+Fed_March_2023_Rate_Decision,"Will the Fed increase interest rates by 25 bps after its March meeting?",32,
+Fed_March_2023_Rate_Decision,"Will the Fed increase interest rates by 50 bps after its March meeting?",32,
+Eurovision_2023_Winner,"Will Czechia win Eurovision 2023?",31,"One country must win"
+Eurovision_2023_Winner,"Will Finland win Eurovision 2023?",31,
+Eurovision_2023_Winner,"Will Norway win Eurovision 2023?",31,
+Eurovision_2023_Winner,"Will Sweden win Eurovision 2023?",31,
+Eurovision_2023_Winner,"Will Ukraine win Eurovision 2023?",31,
+Eurovision_2023_Winner,"Will United Kingdom win Eurovision 2023?",31,
+Elon_Tweet_Count_March_6,"Will @elonmusk have 23,370 or fewer tweets on March 6?",53,"Mutually exclusive ranges"
+Elon_Tweet_Count_March_6,"Will @elonmusk have 23,371-23,390 tweets on March 6?",53,
+Elon_Tweet_Count_March_6,"Will @elonmusk have 23,391-23,410 tweets on March 6?",53,
+Elon_Tweet_Count_March_6,"Will @elonmusk have 23,411-23,430 tweets on March 6?",53,
+Elon_Tweet_Count_March_6,"Will @elonmusk have 23,431-23,450 tweets on March 6?",53,
+Elon_Tweet_Count_March_6,"Will @elonmusk have 23,451 or more tweets on March 6?",53,
+US_Inflation_Feb_Mar_2023,"Will U.S. inflation be greater than 0.0% from February to March 2023?",39,"Nested ranges - subset for demo"
+US_Inflation_Feb_Mar_2023,"Will U.S. inflation be greater than 0.1% from February to March 2023?",39,
+US_Inflation_Feb_Mar_2023,"Will U.S. inflation be greater than 0.2% from February to March 2023?",39,
+US_Inflation_Feb_Mar_2023,"Will U.S. inflation be greater than 0.3% from February to March 2023?",39,
+March_Madness_2023_Regional_Winner,"Will a team from the East win 2023 March Madness?",169,"Four regions compete"
+March_Madness_2023_Regional_Winner,"Will a team from the Midwest win 2023 March Madness?",169,
+March_Madness_2023_Regional_Winner,"Will a team from the South win 2023 March Madness?",169,
+March_Madness_2023_Regional_Winner,"Will a team from the West win 2023 March Madness?",169,

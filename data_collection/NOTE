@@ -1,0 +1,3 @@
+Note that the following files create_markets_data, derive_api_key, generate_api_key, generate_market_lookup_json, generate_markets_data_csv,
+get_all_historical_date, get_live_price, keys.env. All were brought from https://github.com/JeremyWhittaker/Polymarket_arbitrage. His project
+was very inciteful for our project and helped us get our feet rolling in capturing market data. 

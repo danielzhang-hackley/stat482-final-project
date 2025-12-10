@@ -1,4 +1,11 @@
+#%%
 #Setup
+#pip install json
+#pip install time
+#pip install typing
+#pip install requests
+
+#%%
 import json
 import time
 from typing import Any, Dict, List, Optional
@@ -7,7 +14,10 @@ import requests
 base_url = "https://data-api.polymarket.com/trades"
 GAMMA_BASE_URL = "https://gamma-api.polymarket.com"
 CLOB_BASE_URL = "https://clob.polymarket.com"
+#%%
 
+
+#%%
 # Sum Yes < 1 check helpers
 # ------------------------------------------------------------
 # 1. Fetch events from Gamma
@@ -209,9 +219,7 @@ def compute_yes_basket_costs_for_events(
             print(f"Computed basket cost for {count} negRisk events...")
 
     return results
-
-
-
+#%%
 #Run Sum Yes < 1 check
 def main():
     summaries = compute_yes_basket_costs_for_events(
@@ -239,14 +247,9 @@ def main():
 
 if __name__ == "__main__":
     main()
-
-
-
-
+#%%
 
 #Binary market check helper
-
-
 #You can adjust max_pages to adjust the number of games you want to analyze, each page = 1000 games
 def fetch_clob_markets(max_pages: int = 5, sleep_secs: float = 0.1) -> List[Dict[str, Any]]:
     """
@@ -383,9 +386,7 @@ def scan_binary_markets_for_arb(
             )
 
     print(f"\nDone. Checked {checked} binary markets.")
-
-
-
+#%%
 #Run Binary Market Check
 if __name__ == "__main__":
     scan_binary_markets_for_arb(
@@ -393,6 +394,6 @@ if __name__ == "__main__":
         min_edge=0.001,
         max_markets=500,
     )
-
+#%%
 
 
